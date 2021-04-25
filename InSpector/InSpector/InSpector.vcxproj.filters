@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="XListCtrl">
+      <UniqueIdentifier>{37f20c28-9730-4012-830c-68183339bf1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XListCtrl\Source Files">
+      <UniqueIdentifier>{33835be7-f029-41dd-9ab3-688bbd395f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XListCtrl\Header Files">
+      <UniqueIdentifier>{a51af3da-58eb-461f-af7f-bb86bc87e6dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\InSpector.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\InSpectorDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\InSpector.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InSpector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InSpectorDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InSpectorView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\AdvComboBox.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\AdvComboEdit.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\DropListBox.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\DropScrollBar.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\DropWnd.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\MemDC.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\SortCStringArray.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\VisualStylesXP.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\XCombo.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\XComboList.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\XEdit.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\XHeaderCtrl.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl\XListCtrl.h">
+      <Filter>XListCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CANConfigDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSChiefManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSMcManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSPcsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NsCan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NsCanDump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSCanManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CanMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSPcsTraceDump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSPcsFaultLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFilterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSSearchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSPcsListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSFaultListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSDpmListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSCsListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InSpector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InSpectorDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InSpectorView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSCanManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\AdvComboBox.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\AdvComboEdit.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\DropListBox.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\DropScrollBar.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\DropWnd.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\VisualStylesXP.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\XCombo.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\XComboList.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\XEdit.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\XHeaderCtrl.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl\XListCtrl.cpp">
+      <Filter>XListCtrl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CANConfigDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NsCan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSChiefManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSMcManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NsCanDump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSPcsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSPcsTraceDump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSPcsFaultLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFilterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSSearchDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSPcsListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSFaultListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSDpmListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSCsListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="InSpector.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
